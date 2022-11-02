@@ -20,6 +20,10 @@ public class Futbolista extends SeleccionFutbol{
     public void entrenar(){
         System.out.println("Futbolista => mejora su tecnica durante los entrenamientos");
     }
+    
+    public void entrevista() {
+        System.out.println("Da una Entrevista");
+     }
 
     public Futbolista() {
         super();
@@ -48,6 +52,20 @@ public class Futbolista extends SeleccionFutbol{
     public void setDemarcacion(String demarcacion) {
         this.demarcacion = demarcacion;
     }
+
+	@Override
+	public void entrenamiento() {
+		// TODO Auto-generated method stub
+		System.out.println("Realiza un entrenamiento (Clase Futbolista)");
+	}
+
+	@Override
+	public void partidoFutbol() {
+		// TODO Auto-generated method stub
+		System.out.println("Juega un Partido (Clase Futbolista)");
+	}
+	
+	
     
     
     

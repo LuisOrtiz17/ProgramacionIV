@@ -45,5 +45,13 @@ public class Masajista extends SeleccionFutbol{
     public void darMasaje(){
         System.out.println("Masajista => dar masaje");
     }
+
+	@Override
+	public void entrenamiento() {
+		// TODO Auto-generated method stub
+		System.out.println("Da asistencia en el entrenamiento (Clase Masajista)");
+	}
+	
+    
     
 }

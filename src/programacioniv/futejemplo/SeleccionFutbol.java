@@ -8,7 +8,7 @@ package programacioniv.futejemplo;
  *
  * @author zamudioluis
  */
-public class SeleccionFutbol {
+public abstract class SeleccionFutbol {
     
     protected int id;
     protected String nombre;
@@ -33,6 +33,12 @@ public class SeleccionFutbol {
     
     public void viajar(){
         System.out.println("Viajar (Clase Padre)");
+    }
+    
+    public abstract void entrenamiento();
+    
+    public void partidoFutbol() {
+    	System.out.println("Asiste al partido de fut Fútbol ()Clase Padre");
     }
 
     public int getId() {

@@ -38,4 +38,22 @@ public class Entrenador extends SeleccionFutbol {
         System.out.println("Entrenador => dirige un entrenamiento");
     }
 
+	@Override
+	public void entrenamiento() {
+		// TODO Auto-generated method stub
+		System.out.println("Dirige un entrenamiento (Clase Entrenador)");
+	}
+
+	@Override
+	public void partidoFutbol() {
+		// TODO Auto-generated method stub
+		System.out.println("Dirige un Partido (Clase Entrenador)");
+	}
+	
+	public void planificarEntrenamiento() {
+	      System.out.println("Planificar un Entrenamiento");
+	   }
+	
+	
+
 }
